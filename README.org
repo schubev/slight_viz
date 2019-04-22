@@ -1,0 +1,21 @@
+#+Author Victor Schubert
+#+Email v@schu.be
+
+* slight-viz
+Make SMS backups from [[https://github.com/handschuh/Slight-backup][Slight-backup]] human readable.
+
+** Building
+   This small program is written using Nim 0.19. You can learn more
+   about Nim (including how to install it) on [[https://nim-lang.org/][their website]].
+ 
+   You can build the program by running ~nimble build~ in the project
+   root.
+
+** Usage
+   The executable takes exactly one parameter, which must be the path
+   to a /Slight-backup/ SMS backup. An HTML document will be created
+   alongside it.
+
+   #+BEGIN_SRC
+   ./slight_viz message_backup.xml
+   #+END_SRC
