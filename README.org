@@ -1,5 +1,5 @@
-#+Author Victor Schubert
-#+Email v@schu.be
+#+Author: Victor Schubert
+#+Email: v@schu.be
 
 * slight-viz
 Make SMS backups from [[https://github.com/handschuh/Slight-backup][Slight-backup]] human readable.
